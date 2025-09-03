@@ -10,15 +10,6 @@ namespace assign1
     {
         static void Main(string[] args)
         {
-            /*Create a console - based program that repeatedly accepts a string
-              and determine whether the string is a PALINDROME or NOT.
-              A palindrome is a string when reversed is the same as the original string.
-            Example civic, RACECAR, level, madam is a PALINDROME. If the user types, asterisk *
-            the loop will terminate and display the output
-            (original and reversed string and palindrome or not) thereafter.
-            Never use a C# built-in method but you can only use .ToLower() method.*/
-
-
             while (true)
             {
                 Console.Write("Enter string: ");
