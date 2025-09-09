@@ -13,7 +13,7 @@ namespace ConsoleApp1
             Console.Write("Enter row: ");
             int row = int.Parse(Console.ReadLine());
 
-            Console.Write("Enter coloumn: ");
+            Console.Write("Enter col: ");
             int col = int.Parse(Console.ReadLine());
 
             //List<double> nums = new List<double>();
@@ -21,11 +21,11 @@ namespace ConsoleApp1
 
             for (int i = 0; i < row; i++)
             {
-                Console.WriteLine($"Row {i + 1}:");
+                Console.WriteLine($"Row {i + 1}");
                 nums.Add(new List<double>{ });
                 for (int j = 0; j < col; j++)
                 {
-                    Console.Write($"Enter at index {i}-{j}: ");
+                    Console.Write($"Enter number {j+1}: ");
                     nums[i].Add(double.Parse(Console.ReadLine()));
                 }
                 Console.WriteLine();
@@ -34,12 +34,12 @@ namespace ConsoleApp1
 
             double sum = 0;
             int ave = 0;
+            Console.WriteLine("The numbers are: ");
             for (int i = 0; i < row; i++)
             {
-                Console.WriteLine($"Row {i + 1} Contents: ");
                 for (int j = 0; j < col; j++)
                 {
-                    Console.Write($"{nums[i][j]} ");
+                    Console.Write($"{(nums[i][j]).ToString("F1")} ");
                     sum += nums[i][j];
                     ave++;
                 }
@@ -47,7 +47,7 @@ namespace ConsoleApp1
             }
 
             Console.WriteLine();
-            Console.WriteLine($"Sum: {sum}");
+            Console.WriteLine($"Sum: {sum.ToString("F2")}");
             Console.WriteLine($"Average: {(sum / ave).ToString("F2")}");
             Console.ReadKey();
         }
