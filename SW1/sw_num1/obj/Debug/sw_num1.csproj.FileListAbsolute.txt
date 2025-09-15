@@ -1,0 +1,7 @@
+C:\Users\NITRO 5\Documents\IM102_ASSIGNMENTS-EJMOLINA\SW1\sw_num1\bin\Debug\sw_num1.exe.config
+C:\Users\NITRO 5\Documents\IM102_ASSIGNMENTS-EJMOLINA\SW1\sw_num1\bin\Debug\sw_num1.exe
+C:\Users\NITRO 5\Documents\IM102_ASSIGNMENTS-EJMOLINA\SW1\sw_num1\bin\Debug\sw_num1.pdb
+C:\Users\NITRO 5\Documents\IM102_ASSIGNMENTS-EJMOLINA\SW1\sw_num1\obj\Debug\sw_num1.csproj.AssemblyReference.cache
+C:\Users\NITRO 5\Documents\IM102_ASSIGNMENTS-EJMOLINA\SW1\sw_num1\obj\Debug\sw_num1.csproj.CoreCompileInputs.cache
+C:\Users\NITRO 5\Documents\IM102_ASSIGNMENTS-EJMOLINA\SW1\sw_num1\obj\Debug\sw_num1.exe
+C:\Users\NITRO 5\Documents\IM102_ASSIGNMENTS-EJMOLINA\SW1\sw_num1\obj\Debug\sw_num1.pdb
