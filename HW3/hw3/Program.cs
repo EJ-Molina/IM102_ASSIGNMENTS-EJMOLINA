@@ -10,13 +10,18 @@ namespace hw3
     {
         static void Main(string[] args)
         {
-            List<Dictionary<char, int>> wordFreq = new List<Dictionary<char, int>> { };
             Console.Write("Enter String: ");
             string str = Console.ReadLine().ToLower();
+            countLetters(str);
+            Console.ReadKey();           
+        }
+        static void countLetters(string str)
+        {
+            List<Dictionary<char, int>> wordFreq = new List<Dictionary<char, int>> { };
             string[] word = str.Split(' ');
-            
 
-            for(int i = 0; i < word.Length; i++)
+
+            for (int i = 0; i < word.Length; i++)
             {
                 string nWord = word[i];
                 wordFreq.Add(new Dictionary<char, int>());
@@ -30,13 +35,12 @@ namespace hw3
 
             }
 
-            foreach(var item in wordFreq)
+            foreach (var item in wordFreq)
             {
                 var freqArr = item.Select((kv) => $"{kv.Key}={kv.Value}");
                 string output = string.Join(",", freqArr);
                 Console.WriteLine(output);
             }
-
         }
     }
 }
